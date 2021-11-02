@@ -1,2 +1,12 @@
 # Database final work
 Download files to implement into Azuredatastudio or any other IDE for sql.
+# Important Commands to take a look at
+```sql
+--change any value in a table with a condition
+Update table_used
+Set column_name
+Where condition
+--rename a column name
+exec sp_rename 'table.Column_name', 'new_name';
+
+```
