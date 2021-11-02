@@ -14,4 +14,6 @@ Drop column clumn_name
 --add a foreing key in case of mistakes
 ALTER TABLE table
 add FOREIGN KEY (column_name) REFERENCES Table_Referenced(column_referenced)
+--Delete complete values of a table
+DELETE FROM table_name WHERE condition
 ```
