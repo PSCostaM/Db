@@ -8,5 +8,7 @@ Set column_name
 Where condition
 --rename a column name
 exec sp_rename 'table.Column_name', 'new_name';
-
+--Drop column
+Alter table table_used
+Drop column clumn_name
 ```
